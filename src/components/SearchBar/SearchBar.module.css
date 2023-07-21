@@ -1,0 +1,42 @@
+.searchBar input {
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    height: 2rem;
+    border: none;
+    padding: 0 0.5rem;
+    background: white;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7rem;
+}
+
+.searchBar button {
+    border-radius: 0.5rem;
+    outline: none;
+    height: 2rem;
+    border: none;
+    padding: 0 0.5rem;
+    margin-right: 4rem;
+    background: linear-gradient(0deg, rgba(134, 216, 255, 1) 0%, rgba(157, 223, 255, 1) 54%, rgba(134, 216, 255, 1) 100%);
+    color: black;
+    cursor: pointer;
+    font-family: 'Poppins-Bold', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
+.searchBar button:hover {
+    background: linear-gradient(0deg, rgba(159, 224, 255, 1) 0%, rgba(180, 230, 255, 1) 54%, rgba(159, 224, 255, 1) 100%);
+}
+
+.logo {
+    height: 4rem;
+}
+
+.logoLink {
+    position: absolute;
+    left: 5rem;
+}
+
+.random {
+    background: radial-gradient(circle, rgba(227, 122, 65, 1) 0%, rgba(226, 171, 63, 1) 50%, rgba(228, 128, 64, 1) 100%) !important;
+}

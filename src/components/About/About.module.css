@@ -1,0 +1,42 @@
+.container {
+    height: calc(100vh - 74px);
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img{
+    width: 60%;
+    height: auto;
+    box-shadow: 0 0 40px -5px #000;
+    border-radius: 1rem;
+    opacity: 0.8;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.right h1 {
+    font-size: 4.5vw;
+    color: #61c1f1;
+    text-shadow: 0 0 50px black;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    text-align: start;
+}
+
+.right p {
+    font-size: 2vw;
+    color: #61c1f1;
+    text-shadow: 0 0 50px black;
+    opacity: 0.8;
+    text-align: justify;
+}

@@ -1,0 +1,15 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url('./assets/Poppins-Regular.ttf');
+}
+@font-face {
+   font-family: 'Poppins-Bold';
+   src: url('./assets/Poppins-Bold.ttf');
+}
+.App {
+   text-align: center;
+   background-image: url("./assets/nasa.jpg");
+   background-size: auto;
+   min-height: 100vh;
+   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}

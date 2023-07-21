@@ -1,0 +1,64 @@
+.danger {
+    color: red;
+    margin-top: 15px;
+}
+
+.label {
+    color:  black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 74px);
+}
+
+.form {
+    width: 460px;
+    height: 640px;
+    background-image: url('../../assets/login.png');
+    background-size: cover;
+    box-shadow: 0 0 100px -10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.form button {
+    border: none;
+    padding: 10px;
+    width: 60%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px -10px black;
+    background-color: rgb(217, 31, 62);
+    color: aliceblue;
+}
+
+.form button:hover {
+    background-color: rgb(222, 48, 77);
+}
+
+.inputBox {
+        background-color: rgba(255,255,255,0.9);
+        padding: 15px;
+        border-radius: 1rem;
+        box-shadow: 0 0 20px -10px black;
+        width: 60%;
+}
+
+.inputBox label {
+    margin-right: 10px;
+}
+
+.inputBox input {
+    border: none;
+    border-radius: 0.5rem;
+    height: 40px;
+    width: 100%;
+    box-shadow: 5px 5px 20px -10px pink;
+    font-size: 12px;
+    padding: 0 10px;
+}
